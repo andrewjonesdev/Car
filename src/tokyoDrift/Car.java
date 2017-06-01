@@ -2,11 +2,11 @@ package tokyoDrift;
 
 public class Car {
 	//should set these to 0s, falses, and ""s
-	private int speed = 60;
+	private int speed = 0;
 	private boolean started = false;
 	private boolean accelerating = false;
-	private String color = "Black";
-	private String model = "Masarati";
+	private String color = "";
+	private String model = "";
 	
 	
 	public Car (int spe, boolean sta, boolean acc, String col, String mod){
